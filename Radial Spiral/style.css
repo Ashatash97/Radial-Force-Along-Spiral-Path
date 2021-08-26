@@ -1,0 +1,56 @@
+body {
+    background-color: #292929;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    margin: 40px;
+}
+
+.tooltip {
+    background: none;
+    width: 200px;
+    color:#fcd101;
+    font-size: 12px;
+    /* margin-left: 14%; */
+    position: absolute;
+    text-align: center;
+    /* top: 95px; */
+    z-index: 10;
+    display: inline-block;
+    opacity: 0;
+}
+
+
+.text {
+    color: #292929;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+
+
+.key-dot {
+    display: inline-block;
+    height: 10px;
+    margin-right: .5em;
+    width: 10px;
+}
+
+.legend {
+    margin-right:20px;
+}
+
+/*HTML Horizonal Legend*/
+.country-name {
+    margin: 0 !important;
+}
+.key-dot {
+    display: inline-block;
+    height: 10px;
+    margin-right: .5em;
+    width: 10px;
+}
+
+.key-dot {
+  border-radius: 50%;
+}
